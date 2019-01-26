@@ -1,34 +1,19 @@
 import React, {Component} from 'react';
 import './App.css';
-import VideoPlayerList from "./components/VideoPlayerList";
-import ProjectList from "./components/ProjectList";
+import VideoPlayerList from "./components/Videos/VideoPlayerList";
+import ProjectList from "./components/Projects/ProjectList";
+import Header from "./components/Header/Header";
 
 class App extends Component {
   render() {
     return (
-      <div className="App" >
+      <div classNameName="App" >
+          <Header/>
           <ProjectList/>
-          <VideoPlayerList/>
+          <VideoPlayerList />
       </div>
     );
   }
 }
 
 export default App;
-
-
-//
-// <header className="App-header">
-//     <img src={logo} className="App-logo" alt="logo" />
-//     <p>
-//         Edit <code>src/App.js</code> and save to reload.ø
-//     </p>
-//     <a
-//         className="App-link"
-//         href="https://reactjs.org"
-//         target="_blank"
-//         rel="noopener noreferrer"
-//     >
-//         Learn React
-//     </a>
-// </header>

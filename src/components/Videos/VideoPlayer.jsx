@@ -2,17 +2,15 @@ import YouTubePlayer from 'react-player/lib/players/YouTube'
 import React from "react";
 import PropTypes from 'prop-types';
 
-const VideoPlayer = (props) => {
-    return <div>
-
-        <YouTubePlayer
-            url={'https://www.youtube.com/watch?v=d46Azg3Pm4c'}
-            playing={true}
+const VideoPlayer = (props) => (
+     <YouTubePlayer
+            url= {props.url}
+            playing={false}
             controls
+            style={{display:'inline-block'}}
             // Other ReactPlayer props will work here
         />
-    </div>
-}
+)
 
 VideoPlayer.propTypes ={
      url : PropTypes.string.isRequired

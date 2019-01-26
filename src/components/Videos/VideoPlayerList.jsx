@@ -14,9 +14,12 @@ const videos = [
 ]
 
 const VideoPlayerList = ()=>{
-    return videos.map((video=>{
-        return <VideoPlayer url={video.url}/>
-    }))
+    return <div  style={{display: 'inline-block'}}>
+        {  videos.map((video=>{
+            return <VideoPlayer url={video.url}/>
+        }))}
+    </div>
+
 
 }
 export default  VideoPlayerList
