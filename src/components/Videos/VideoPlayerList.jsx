@@ -14,7 +14,7 @@ const videos = [
 ]
 
 const VideoPlayerList = ()=>{
-    return <div  style={{display: 'inline-block'}}>
+    return <div  >
         {  videos.map((video=>{
             return <VideoPlayer url={video.url}/>
         }))}
