@@ -3,13 +3,16 @@ import VideoPlayer from "./VideoPlayer";
 
 const videos = [
     {
-        url : "https://youtu.be/d46Azg3Pm4c"
+        //plagiarism detector demo
+        url : "https://www.youtube.com/watch?v=jUKjM7mgczE"
     },
     {
-        url : "https://youtu.be/d46Azg3Pm4c"
+        //react native demo
+        url : "https://www.youtube.com/watch?v=2OpqWoyN4WM"
     },
     {
-        url : "https://youtu.be/d46Azg3Pm4c"
+        // jamnjam demo
+        url : "https://www.youtube.com/watch?v=2vbRGfbdv30"
     },
 ]
 
