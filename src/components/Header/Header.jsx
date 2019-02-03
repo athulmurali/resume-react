@@ -86,8 +86,8 @@ const tempHeader = ()=> <div className="col-sm-2 left-side"
             <li>Node.js</li>
             <li>Flask</li>
             <li>SQL, MongoDB</li>
-            <li>React, Angular</li>
-            <li>Redux</li>
+            <li>React & Redux</li>
+            <li>Angular</li>
         </ul>
     </div>
     <hr/>
