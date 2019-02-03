@@ -4,6 +4,7 @@ import VideoPlayerList from "./components/Videos/VideoPlayerList";
 import Intro from './components/Intro/Intro'
 import Header from "./components/Header/Header";
 import Experience from "./components/Exprerience/Experience";
+import ProjectList from "./components/Projects/ProjectList";
 
 class App extends Component {
   render() {
@@ -14,9 +15,9 @@ class App extends Component {
             <Header />
 
           <div className="container-main container" >
-              <Intro/>
               <Experience/>
               <VideoPlayerList />
+              <ProjectList/>
           </div>
 
 

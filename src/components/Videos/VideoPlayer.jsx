@@ -7,7 +7,7 @@ const VideoPlayer = (props) => (
             url= {props.url}
             playing={false}
             controls
-            style={{display:'inline-block'}}
+            style={{display:'inline-block', maxHeight : 300, maxWidth : 350, margin : 10}}
             // Other ReactPlayer props will work here
         />
 )
