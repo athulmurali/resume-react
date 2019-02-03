@@ -13,16 +13,11 @@ class App extends Component {
 
       <div classNameName="container-website" >
             <Header />
-
           <div className="container-main container" >
               <Experience/>
-              <VideoPlayerList />
               <ProjectList projects={PROJECTS_DATA}/>
+              <VideoPlayerList />
           </div>
-
-
-
-
       </div>
     );
   }

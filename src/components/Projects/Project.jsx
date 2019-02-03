@@ -13,9 +13,9 @@ const Project = (props)=>(<div className="row snippet-projects-013">
             <div className="col-sm-4 item item-00">
                 <figure>
                     <div className="project-container">
-                        <a href="http://jamnjam.com/">
+                        <a href={props.link}>
                             <div className="project-image">
-                                <img alt="JamnJam Screenshot" data-no-retina="true"
+                                <img alt={props.title} data-no-retina="true"
                                      src={props.img} style={{maxWidth : '300px'}}/>
                                 <div className="project-title">
                                     <b style={{color: 'inherit', fontSize:'15px',fontWeight: 'bold' }}>Jam n Jam</b>
