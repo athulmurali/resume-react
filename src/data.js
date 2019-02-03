@@ -64,3 +64,11 @@ export const PROJECTS_DATA=[
 
 export const TECH_STACK = ["NodeJs","Flask", "SQL MongoDB","React & Redux", "Angular"]
 export const LANGUAGES = ["","Flask", "SQL MongoDB","React & Redux", "Angular"]
+
+
+
+// social links : To be given as string
+export const SOCIAL_LINKED_IN ="https://www.linkedin.com/in/athulmuralidharan/"
+export const SOCIAL_GITHUB ="https://github.com/athulmurali"
+export const SOCIAL_TWITTER ="https://twitter.com/@athul_karthik"
+export const SOCIAL_EMAIL = "muralidharan.a@husky.neu.edu"

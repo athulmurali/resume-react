@@ -1,7 +1,7 @@
 import React from 'react'
 import  dp from '../../assets/img/athul_dp.jpg'
 import  '../../../node_modules/font-awesome/css/font-awesome.css'
-import {LANGUAGES, TECH_STACK} from "../../data";
+import {LANGUAGES, SOCIAL_EMAIL, SOCIAL_GITHUB, SOCIAL_LINKED_IN, SOCIAL_TWITTER, TECH_STACK} from "../../data";
 
 
 
@@ -86,19 +86,19 @@ const Header = ()=> <div className="col-sm-2 left-side"
 </div>
 
 
-const SOCIAL_LINKED_IN ="https://www.linkedin.com/in/athulmuralidharan/"
-const SOCIAL_GITHUB ="https://github.com/athulmurali"
-const SOCIAL_TWITTER ="https://twitter.com/@athul_karthik"
-const SOCIAL_EMAIL = "muralidharan.a@husky.neu.edu"
 
 const social_links = ()=>  ( <div className="social-links">
     <a href={SOCIAL_LINKED_IN} rel="nofollow noopener noreferrer" target="_blank">
-        <i className="fa fa"></i></a>&nbsp; &nbsp;&nbsp;
+        <i className="fa fa"></i>
+    </a>&nbsp; &nbsp;&nbsp;
     <a href={SOCIAL_GITHUB} rel="nofollow noopener noreferrer" target="_blank">
-        <i className="fa"></i></a>&nbsp;&nbsp;&nbsp;
+        <i className="fa"></i>
+    </a>&nbsp;&nbsp;&nbsp;
     <a href={SOCIAL_TWITTER} rel="nofollow noopener noreferrer" target="_blank">
-        <i className="fa"></i></a>&nbsp;&nbsp;&nbsp;
+        <i className="fa"></i>
+    </a>&nbsp;&nbsp;&nbsp;
     <a href= {`mailTo:${SOCIAL_EMAIL}`} rel="nofollow noopener noreferrer" target="_blank">
-        <i className="fa fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;
+        <i className="fa fa-envelope"></i>
+    </a>&nbsp;&nbsp;&nbsp;
 </div>)
 export default  Header
