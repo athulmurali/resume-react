@@ -4,6 +4,9 @@ import RIGOR_LOGO from './assets/img/rigor-logo.png'
 import XOBIN_LOGO from './assets/img/xobin-logo.png'
 import ARICENT_LOGO from './assets/img/aricentLogo.jpg'
 
+
+
+import JAMNJAM_IMG from './assets/img/PROJECT_PLAGIRASIM.png'
 export const experiencesData = [
     {
         position: 'Front End Engineer',
@@ -45,4 +48,19 @@ export const experiencesData = [
 
 ]
 
+export const PROJECTS_DATA=[
+    {
+        title : "Jam n Jam",
+        description : "An online solution connecting musicians, bands and studios",
+        img : JAMNJAM_IMG,
+        details :[
+            "Built infrastructure of project - initialized docker containers for each user and created an API to bridge the communication of each user to their associated container",
+            "Built a fully integrated code-editor to be responsive to unix commands sent from the terminal. Supports python, ruby, java, javascript.",
+            "Made contributions to features like real-time collaboration through socketIO, a folder and file tree of the IDE, and to adding drag and drop functionality to support uploading to any container",
+            "Designed and developed the UI"
+        ]
+    },
+]
 
+export const TECH_STACK = ["NodeJs","Flask", "SQL MongoDB","React & Redux", "Angular"]
+export const LANGUAGES = ["","Flask", "SQL MongoDB","React & Redux", "Angular"]

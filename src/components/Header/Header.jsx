@@ -1,46 +1,14 @@
 import React from 'react'
 import  dp from '../../assets/img/athul_dp.jpg'
 import  '../../../node_modules/font-awesome/css/font-awesome.css'
-
-const Header = ()=> (<div className="container-web" style={{position : 'relative'}}>
-    <div className="col-sm-2 left-side" style={{position: 'relative', height: '100%', textAlign: 'center'}}>
-        <div className="row">
-            <div className="col-md-12">
-                <h1 className="title-name text-center" style={{padding :10}}>
-                    <img src={dp} style={{maxWidth : 125,borderRadius: '50%', borderStyle:'solid', borderWidth :'0.1'
-                    }}/>
-                    <span className="first-name">Athul</span>
-                    <span className="last-name">Muralidharan</span>
-                </h1>
-            </div>
-        </div>
-        <div className="row"></div>
-        <div className="row">
-            <div className="col-md-12 left-header">
-                Software Developer
-            </div>
-        </div>
-        <div className="row">
-            <div className=" social-links " style={{color : 'black'}}>
-                    <a href="https://www.linkedin.com/in/athulmuralidharan" rel="nofollow noopener noreferrer" target="_blank">
-                        <i className="fa  fa-2x fa-linkedin" style={{color : 'black'}}/>
-                    </a>&nbsp;&nbsp;&nbsp;
-                    <a href="https://github.com/athulmurali" rel="nofollow noopener noreferrer" target="_blank">
-                        <i className="fa  fa-2x fa-github" style={{color : 'black'}}/>
-                    </a>&nbsp;&nbsp;&nbsp;
-                    <a href="https://twitter.com/athul_karthik" rel="nofollow noopener noreferrer" target="_blank">
-                        <i className="fa  fa-2x fa-twitter" style={{color : 'black'}}/>
-                    </a>&nbsp;&nbsp;&nbsp;
+import {LANGUAGES, TECH_STACK} from "../../data";
 
 
-            </div>
-        </div>
-    </div>
-    </div>)
 
 
-const tempHeader = ()=> <div className="col-sm-2 left-side"
-                             style={{position :'absolute', height: '100%', textAlign: 'center'}}>
+
+const Header = ()=> <div className="col-sm-2 left-side"
+                         style={{position :'absolute', height: '100%', textAlign: 'center'}}>
     <div className="row">
         <div className="col-md-12">
             <h1 className="title-name">
@@ -57,13 +25,10 @@ const tempHeader = ()=> <div className="col-sm-2 left-side"
             Software Developer
         </div>
     </div>
-    <div className="social-links">
-        <a href="https://www.linkedin.com/in/athulmuralidharan/" rel="nofollow noopener noreferrer" target="_blank">
-            <i className="fa fa"></i></a>&nbsp; &nbsp;&nbsp;
-        <a href="https://github.com/athulmurali" rel="nofollow noopener noreferrer" target="_blank"><i className="fa"></i></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://twitter.com/@athul_karthik" rel="nofollow noopener noreferrer" target="_blank"><i className="fa"></i></a>&nbsp;&nbsp;&nbsp;
-        <a href="muralidharan.a@husky.neu.edu" rel="nofollow noopener noreferrer" target="_blank"><i className="fa fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;
-    </div>
+
+    {social_links()}
+
+
     <div className="row">
         <div className="col-md-2 col-xs-2 col-sm-2 col-lg-2"></div>
         <div className="col-md-8 col-xs-8 col-sm-8 col-lg-8">
@@ -83,11 +48,18 @@ const tempHeader = ()=> <div className="col-sm-2 left-side"
         </div>
         <i className="fa fa-code fa-3x fa-align-center"></i>
         <ul className="left-sub-text">
-            <li>Node.js</li>
-            <li>Flask</li>
-            <li>SQL, MongoDB</li>
-            <li>React & Redux</li>
-            <li>Angular</li>
+            {TECH_STACK.map((tech ,index)=><li key={index}> {tech}</li>)}
+        </ul>
+    </div>
+    <hr/>
+    <div className="row">
+        <div className="col-md-12 left-header"
+             style={{paddingTop : '50px'}}>
+            Languages
+        </div>
+        <i className="fa fa-language fa-3x"></i>
+        <ul className="left-sub-text">
+            {LANGUAGES.map((language)=><li>{language}</li>)}
         </ul>
     </div>
     <hr/>
@@ -110,17 +82,23 @@ const tempHeader = ()=> <div className="col-sm-2 left-side"
 
     </div>
     <hr/>
-    <div className="row">
-        <div className="col-md-12 left-header"
-             style={{paddingTop : '50px'}}>
-            Languages
-        </div>
-        <i className="fa fa-language fa-3x"></i>
-        <ul className="left-sub-text">
-            <li>Javascript</li>
-            <li>Python</li>
-            <li>Java, Racket</li>
-        </ul>
-    </div>
+
 </div>
-export default  tempHeader
+
+
+const SOCIAL_LINKED_IN ="https://www.linkedin.com/in/athulmuralidharan/"
+const SOCIAL_GITHUB ="https://github.com/athulmurali"
+const SOCIAL_TWITTER ="https://twitter.com/@athul_karthik"
+const SOCIAL_EMAIL = "muralidharan.a@husky.neu.edu"
+
+const social_links = ()=>  ( <div className="social-links">
+    <a href={SOCIAL_LINKED_IN} rel="nofollow noopener noreferrer" target="_blank">
+        <i className="fa fa"></i></a>&nbsp; &nbsp;&nbsp;
+    <a href={SOCIAL_GITHUB} rel="nofollow noopener noreferrer" target="_blank">
+        <i className="fa"></i></a>&nbsp;&nbsp;&nbsp;
+    <a href={SOCIAL_TWITTER} rel="nofollow noopener noreferrer" target="_blank">
+        <i className="fa"></i></a>&nbsp;&nbsp;&nbsp;
+    <a href= {`mailTo:${SOCIAL_EMAIL}`} rel="nofollow noopener noreferrer" target="_blank">
+        <i className="fa fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;
+</div>)
+export default  Header
