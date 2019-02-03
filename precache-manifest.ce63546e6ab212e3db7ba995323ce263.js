@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d8c203b640cfb298e651",
-    "url": "/resume-react/static/css/main.e89ba5ab.chunk.css"
+    "revision": "2ad47f31596ee9919d3e",
+    "url": "/resume-react/static/css/main.d3b613b4.chunk.css"
   },
   {
-    "revision": "d8c203b640cfb298e651",
-    "url": "/resume-react/static/js/main.d8c203b6.chunk.js"
+    "revision": "2ad47f31596ee9919d3e",
+    "url": "/resume-react/static/js/main.2ad47f31.chunk.js"
   },
   {
-    "revision": "0fc403303ce9c11e18e4",
-    "url": "/resume-react/static/css/1.767da832.chunk.css"
+    "revision": "7737063fbb2c19336506",
+    "url": "/resume-react/static/css/1.ee267b20.chunk.css"
   },
   {
-    "revision": "0fc403303ce9c11e18e4",
-    "url": "/resume-react/static/js/1.0fc40330.chunk.js"
+    "revision": "7737063fbb2c19336506",
+    "url": "/resume-react/static/js/1.7737063f.chunk.js"
   },
   {
     "revision": "ec256162ff346ce54c3d",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/resume-react/static/media/aricentLogo.2d3b37e8.jpg"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/resume-react/static/media/fontawesome-webfont.af7ae505.woff2"
+    "revision": "a9d238a2584c4e633c4da8ac47115e89",
+    "url": "/resume-react/static/media/PROJECT_PLAGIRASIM.a9d238a2.png"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -48,6 +48,10 @@ self.__precacheManifest = [
     "url": "/resume-react/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/resume-react/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/resume-react/static/media/fontawesome-webfont.b06871f2.ttf"
   },
@@ -56,7 +60,7 @@ self.__precacheManifest = [
     "url": "/resume-react/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "c2839a7bf6dd23b19cc692052c78ea03",
+    "revision": "5fcb094c480f22208f9628f489bad336",
     "url": "/resume-react/index.html"
   }
 ];
