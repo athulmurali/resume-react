@@ -2,11 +2,9 @@
   "name": "resume-react",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://athulmurali.github.io/resume-react",
-
+  "homepage": "https://athulmurali.github.io/resume-react",
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "gh-pages": "^2.0.1",
     "prop-types": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -30,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
