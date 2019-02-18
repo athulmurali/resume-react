@@ -19,7 +19,7 @@ const Header = ()=> <div className="container col-sm-2"
         </div>
     </div>
     <div className="row">
-        <img alt="Athul's dp" className="profile-picture-left img-circle" data-no-retina="true" src={dp}/>
+        <img alt="Athul's profile" className="profile-picture-left img-circle" data-no-retina="true" src={dp}/>
     </div>
     <div className="row">
         <div className="col-md-12 left-header">
@@ -27,8 +27,7 @@ const Header = ()=> <div className="container col-sm-2"
         </div>
     </div>
 
-    {social_links()}
-
+    {social_links}
 
     <div className="row">
         <div className="col-md-2 col-xs-2 col-sm-2 col-lg-2"></div>
@@ -49,7 +48,7 @@ const Header = ()=> <div className="container col-sm-2"
         </div>
         <i className="fa fa-code fa-3x fa-align-center"></i>
         <ul className="left-sub-text" >
-            {TECH_STACK.map((tech ,index)=><li key={index}> {tech}</li>)}
+            {TECH_STACK.map((tech ,index)=><li className="row-header " key={index}> {tech}</li>)}
         </ul>
     </div>
     <hr/>
@@ -86,7 +85,7 @@ const Header = ()=> <div className="container col-sm-2"
 
 
 
-const social_links = ()=>  ( <div className="social-links">
+const social_links = ()=> <div className="social-links">
     <a href={SOCIAL_LINKED_IN} rel="nofollow noopener noreferrer" target="_blank">
         <i className="fa fa"></i>
     </a>&nbsp; &nbsp;&nbsp;
@@ -99,5 +98,5 @@ const social_links = ()=>  ( <div className="social-links">
     <a href= {`mailTo:${SOCIAL_EMAIL}`} rel="nofollow noopener noreferrer" target="_blank">
         <i className="fa fa-envelope"></i>
     </a>&nbsp;&nbsp;&nbsp;
-</div>)
+</div>
 export default  Header
