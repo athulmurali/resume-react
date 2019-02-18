@@ -7,10 +7,11 @@ import {LANGUAGES, SOCIAL_EMAIL, SOCIAL_GITHUB, SOCIAL_LINKED_IN, SOCIAL_TWITTER
 
 
 
-const Header = ()=> <div className="col-sm-2 left-side"
-                         style={{position :'absolute', height: '100%', textAlign: 'center'}}>
+const Header = ()=> <div className="container col-sm-2"
+                         style={{position :'relative', height: '100%', textAlign: 'center'}}>
+
     <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-12 col-lg-12">
             <h1 className="title-name">
                 <span className="first-name">Athul</span>
                 <span className="last-name">Muralidharan</span>
@@ -47,7 +48,7 @@ const Header = ()=> <div className="col-sm-2 left-side"
             Tech Stack
         </div>
         <i className="fa fa-code fa-3x fa-align-center"></i>
-        <ul className="left-sub-text">
+        <ul className="left-sub-text" >
             {TECH_STACK.map((tech ,index)=><li key={index}> {tech}</li>)}
         </ul>
     </div>
@@ -58,7 +59,7 @@ const Header = ()=> <div className="col-sm-2 left-side"
             Languages
         </div>
         <i className="fa fa-language fa-3x"></i>
-        <ul className="left-sub-text">
+        <ul className="left-sub-text" >
             {LANGUAGES.map((language)=><li>{language}</li>)}
         </ul>
     </div>
@@ -68,14 +69,12 @@ const Header = ()=> <div className="col-sm-2 left-side"
              style={{paddingTop: '50px'}}>
             Education
         </div>
-
-
         <i className="fa fa-graduation-cap fa-3x"></i>
 
-        <ul className="left-sub-text">
+        <ul className="left-sub-text col-md-12 " >
             <li>Northeastern University</li>
-            <li>Computer Science</li>
-            <li>Class of 2018</li>
+            <li >Computer Science</li>
+            <li >Class of 2018</li>
         </ul>
 
 
