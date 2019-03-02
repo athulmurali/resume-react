@@ -7691,7 +7691,7 @@ title-desc {
     }
 
     .info {
-      display: none;
+      display: block;
     }
 
 }

@@ -6,12 +6,13 @@ import ARICENT_LOGO from './assets/img/aricentLogo.jpg'
 
 
 
-import JAMNJAM_IMG from './assets/img/PROJECT_PLAGIRASIM.png'
+import JAMNJAM_IMG from './assets/img/jamnjam.png'
+import PLAGIARISM_IMG from './assets/img/PROJECT_PLAGIRASIM.png'
 export const experiencesData = [
     {
         position: 'Front End Engineer',
         company: 'Retail Business Services',
-        year: 'January 2019- Present',
+        year: 'Jan `19- Present',
         img: RBS_LOGO,
         details: "Front End Engineer for R & D "
 
@@ -19,7 +20,7 @@ export const experiencesData = [
     {
         position: 'Graduate Teaching Assistant',
         company: 'Northeastern University',
-        year: 'September 2018- December 2018',
+        year: 'Sep `18- Dec `18',
         img: NEU_LOGO,
         details: "TA for  CS1100 - Computer Science &  Applications"
 
@@ -27,21 +28,21 @@ export const experiencesData = [
     {
         position: 'Software Engineer',
         company: 'Rigor Solutions',
-        year: 'November 2016- August2017',
+        year: 'Nov 16- Aug 17',
         img: RIGOR_LOGO,
         details: " Software Engineer for workforce management - timesheet "
     },
     {
         position: 'Software Engineer',
         company: 'Aricent Technologies ',
-        year: 'November 2015- November 2016',
+        year: 'Nov `15- Nov `16',
         img: ARICENT_LOGO,
         details: "Software engineer for Juniper & Coriant Routers "
     },
     {
         position: 'Mentor',
         company: 'Xobin',
-        year: 'November 2015- November 2016',
+        year: 'Nov `15- Nov `16',
         img: XOBIN_LOGO,
         details: "Mentor for coding enthusiasts  signed up with Xobin BootCamp"
     }
@@ -54,12 +55,27 @@ export const PROJECTS_DATA=[
         description : "An online solution connecting musicians, bands and studios",
         img : JAMNJAM_IMG,
         details :[
-            "Built infrastructure of project - initialized docker containers for each user and created an API to bridge the communication of each user to their associated container",
-            "Built a fully integrated code-editor to be responsive to unix commands sent from the terminal. Supports python, ruby, java, javascript.",
-            "Made contributions to features like real-time collaboration through socketIO, a folder and file tree of the IDE, and to adding drag and drop functionality to support uploading to any container",
-            "Designed and developed the UI"
+            "Built an online portal connecting artists, bands and studio owners to find nearest gigs and musicians",
+            "Integrated artists pool with Lost FM apis to support global search and used open source libraries -appoints, moment",
+            "Demonstrated the prototype of the app at Head start, a platform for upcoming startups.",
+            "Conducted a survey with 200 musicians in India and acquired insights about the needs of web users (musicians)"
         ]
     },
+
+
+    {
+        title : "Plagiarism Detector",
+        description : "A cloud based application for detecting plagiarism in python scripts",
+        img : PLAGIARISM_IMG,
+        details :[
+            "Built an online portal connecting artists, bands and studio owners to find nearest gigs and musicians",
+            "Integrated artists pool with Lost FM apis to support global search and used open source libraries -appoints, moment",
+            "Demonstrated the prototype of the app at Head start, a platform for upcoming startups.",
+            "Conducted a survey with 200 musicians in India and acquired insights about the needs of web users (musicians)"
+        ]
+    },
+
+
 ]
 
 export const TECH_STACK = ["NodeJs","Flask", "SQL MongoDB","React & Redux", "Angular"]

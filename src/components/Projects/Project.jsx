@@ -2,53 +2,65 @@ import PropTypes from 'prop-types';
 import React from "react";
 
 
-const Project = (props)=>(<div className="row snippet-projects-013">
-    <div className="col-xs-12">
-        <div className="row">
-            <div className="col-xs-12">
-                <h1><b>Projects</b></h1>
-            </div>
-        </div>
-        <div className="row" title="">
-            <div className="col-sm-4 item item-00">
+
+class Project extends  React.Component {
+
+    constructor(props) {
+        super(props);
+
+
+        this.state = {inDetailedMode: false}
+
+    }
+
+    toggleDetailedMode = () => {
+        this.setState(prevState => ({inDetailedMode: !prevState.inDetailedMode}))
+    }
+
+    render = () => {
+
+        const props = this.props;
+
+        return<div className="col-sm-12 col-lg-12 ">
                 <figure>
-                    <div className="project-container">
+                    <div className="project-container text-center" >
                         <a href={props.link}>
-                            <div className="project-image">
-                                <img alt={props.title} data-no-retina="true"
-                                     src={props.img} style={{maxWidth : '300px'}}/>
+                            <div className="project-image"
+                                 style={{display: !this.state.inDetailedMode ? "block" : "none"}}>
+                                <img alt={props.title} data-no-retina="true" onMouseOver={this.toggleDetailedMode}
+                                     src={props.img} style={{maxWidth: '300px'}}/>
                                 <div className="project-title">
-                                    <b style={{color: 'inherit', fontSize:'15px',fontWeight: 'bold' }}>Jam n Jam</b>
-                                    <p>{props.description}</p>
-                                </div>
-                            </div></a>
-                        <figcaption>
-                            <p></p>
-                            <div className="edit">
-                                <div style={{textAlign :'center'}}>
-                                    <b style={{color: 'inherit', fontSize: '15px', fontWeight: 'bold'}}>Jam n Jam</b>
+                                    <b style={{
+                                        color: 'inherit',
+                                        fontSize: '15px',
+                                        fontWeight: 'bold'
+                                    }}>{props.title}</b>
                                     <p>{props.description}</p>
                                 </div>
                             </div>
-                            <p></p>
-                        </figcaption>
-                        <div className="info">
+                        </a>
+                    </div>
+
+                    <div className="project-container"
+                         onMouseLeave={this.toggleDetailedMode}
+
+                         style={{display: !!this.state.inDetailedMode ? "block" : "none"}}>
+                        <div style={{textAlign: 'center'}}>
+                            <b style={{color: 'inherit', fontSize: '15px', fontWeight: 'bold'}}>{props.title}</b>
+                            <p>{props.description}</p>
+                        </div>
                             <ul>
-                                {props.details.map((line, index)=><li>{line}</li>)}
+                                {props.details.map((line, index) => <li>{line}</li>)}
 
                             </ul>
-                        </div>
                     </div>
+
                 </figure>
             </div>
 
 
-        </div>
-    </div>
-</div>)
-
-
-
+    }
+}
 Project.propTypes = {
     title       : PropTypes.string.isRequired,
     link        : PropTypes.string.isRequired,

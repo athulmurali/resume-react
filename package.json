@@ -2,8 +2,7 @@
   "name": "resume-react",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://athulmurali.github.io/resume-react",
-
+  "homepage": "https://athulmurali.github.io/resume-react",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gh-pages": "^2.0.1",

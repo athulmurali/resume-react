@@ -38,7 +38,7 @@ const Header = ()=> <div className="container col-sm-2"
     </div>
     <div className="row">
         <div className="col-md-12 left-header">
-            <a className="left-header" href="http://athulMuralidharan.com/blog">Blog</a>
+            <a className="left-header" href="https://medium.com/@athulmurali">Blog</a>
         </div>
     </div>
     <hr/>
