@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "82774fd947165059ae6b",
-    "url": "/resume-react/static/css/main.a967717e.chunk.css"
+    "revision": "2d3b37e8906ba93006a5a2972d6ec5eb",
+    "url": "/resume-react/static/media/aricentLogo.2d3b37e8.jpg"
   },
   {
-    "revision": "82774fd947165059ae6b",
-    "url": "/resume-react/static/js/main.82774fd9.chunk.js"
+    "revision": "94279b565ec787c7ffaa",
+    "url": "/resume-react/static/css/main.8e40b3ef.chunk.css"
   },
   {
-    "revision": "7737063fbb2c19336506",
-    "url": "/resume-react/static/css/1.ee267b20.chunk.css"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/resume-react/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "7737063fbb2c19336506",
-    "url": "/resume-react/static/js/1.7737063f.chunk.js"
+    "revision": "5799381afa679954758d",
+    "url": "/resume-react/static/js/1.5799381a.chunk.js"
   },
   {
     "revision": "ec256162ff346ce54c3d",
@@ -32,8 +32,12 @@ self.__precacheManifest = [
     "url": "/resume-react/static/media/rigor-logo.093e6ce9.png"
   },
   {
-    "revision": "2d3b37e8906ba93006a5a2972d6ec5eb",
-    "url": "/resume-react/static/media/aricentLogo.2d3b37e8.jpg"
+    "revision": "94279b565ec787c7ffaa",
+    "url": "/resume-react/static/js/main.94279b56.chunk.js"
+  },
+  {
+    "revision": "278e490148d71cf92cefc2a8bb4cb20d",
+    "url": "/resume-react/static/media/jamnjam.278e4901.png"
   },
   {
     "revision": "a9d238a2584c4e633c4da8ac47115e89",
@@ -56,11 +60,11 @@ self.__precacheManifest = [
     "url": "/resume-react/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/resume-react/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "5799381afa679954758d",
+    "url": "/resume-react/static/css/1.2ef036a6.chunk.css"
   },
   {
-    "revision": "65e76edc3e9fdfc52083d48cb8319bf3",
+    "revision": "2bd4c3df4212860ccf948b3f0622b512",
     "url": "/resume-react/index.html"
   }
 ];
