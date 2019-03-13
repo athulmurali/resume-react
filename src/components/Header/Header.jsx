@@ -4,9 +4,6 @@ import  '../../../node_modules/font-awesome/css/font-awesome.css'
 import {LANGUAGES, SOCIAL_EMAIL, SOCIAL_GITHUB, SOCIAL_LINKED_IN, SOCIAL_TWITTER, TECH_STACK} from "../../data";
 
 
-
-
-
 const Header = ()=> <div className="container col-sm-2"
                          style={{position :'relative', height: '100%', textAlign: 'center'}}>
 
@@ -19,7 +16,7 @@ const Header = ()=> <div className="container col-sm-2"
         </div>
     </div>
     <div className="row">
-        <img alt="Athul's profile" className="profile-picture-left img-circle" data-no-retina="true" src={dp}/>
+        <img alt="Athul's profile" className="profile-picture-left img-circle profile-pic" data-no-retina="true" src={dp}/>
     </div>
     <div className="row">
         <div className="col-md-12 left-header">
@@ -27,7 +24,7 @@ const Header = ()=> <div className="container col-sm-2"
         </div>
     </div>
 
-    {social_links}
+    <Social_Links/>
 
     <div className="row">
         <div className="col-md-2 col-xs-2 col-sm-2 col-lg-2"></div>
@@ -85,7 +82,7 @@ const Header = ()=> <div className="container col-sm-2"
 
 
 
-const social_links = ()=> <div className="social-links">
+const Social_Links = ()=> <div className="social-links">
     <a href={SOCIAL_LINKED_IN} rel="nofollow noopener noreferrer" target="_blank">
         <i className="fa fa"></i>
     </a>&nbsp; &nbsp;&nbsp;

@@ -7802,3 +7802,8 @@ a.email-to:active {color:#A8A8A8; text-decoration: none;}  /* selected link */
  margin-bottom: 30px;
 }
 
+
+.profile-pic{
+    height :150px;
+    width :150px
+}
