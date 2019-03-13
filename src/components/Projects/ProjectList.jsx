@@ -6,7 +6,7 @@ const ProjectList=(props)=> (<div style={{display: 'inline-block'}} >
         <div className="col-xs-12">
             <div className="row">
                 <div className="col-xs-12">
-                    <h1><b>Projects</b></h1>
+                    <h3><b>Projects</b></h3>
                 </div>
             </div>
 

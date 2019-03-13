@@ -11,9 +11,9 @@ class App extends Component {
     return (
 
 
-      <div classNameName="container-website" >
+      <div className="container-website col col-lg-12" >
             <Header />
-          <div className="container-main container" >
+          <div className="container-main container col col-lg-8 " >
               <Experience/>
               <ProjectList projects={PROJECTS_DATA}/>
               <VideoPlayerList />

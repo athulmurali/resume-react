@@ -21,7 +21,7 @@ const VideoPlayerList = ()=>{
         <div className="col-xs-12">
             <div className="row">
                 <div className="col-xs-12">
-                    <h1><b>Videos</b></h1>
+                    <h3><b>Videos</b></h3>
                 </div>
             </div>
 
