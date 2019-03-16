@@ -3,9 +3,11 @@ import {experiencesData} from '../../data'
 
 const ExperienceComponent = (props) => {
     return <div className="row" title="">
-        <div className="col-xs-2 col-sm-1 item-num item-num-00"></div>
         <div className="col-xs-8 col-sm-9 item item-00">
-            <h3> {props.position}  &nbsp;<b style={{color: 'inherit', fontSize: 14}}>{props.year}</b></h3>
+
+            <h3> {props.position}</h3>
+            &nbsp;<b style={{color: 'inherit', fontSize: 14}}>{props.year}</b>
+
             <p> {props.details} </p>
         </div>
         <div className="col-xs-2 item-image item-image-00 text-right">
@@ -14,10 +16,18 @@ const ExperienceComponent = (props) => {
     </div>
 }
 
-const Experience = () => (<div className="row snippet-experiences-002">
-    <div className="col-xs-12">
-        {experiencesData.map(obj => <ExperienceComponent {...obj} />)}
-    </div>
-</div>)
+const Experience = () => (
+    <div className="row snippet-experiences-002">
+        <div className="col-xs-12">
+            <div className="row">
+                <div className="col-xs-12">
+                    <h3><b>Experience</b></h3>
+                </div>
+            </div>
+        </div>
+        <div className="col-xs-12">
+            {experiencesData.map(obj => <ExperienceComponent {...obj} />)}
+        </div>
+    </div>)
 
 export default Experience

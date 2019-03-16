@@ -17,7 +17,16 @@ const videos = [
 ]
 
 const VideoPlayerList = ()=>{
-    return <div  >
+    return    <div className="row snippet-projects-013">
+        <div className="col-xs-12">
+            <div className="row">
+                <div className="col-xs-12">
+                    <h3><b>Videos</b></h3>
+                </div>
+            </div>
+
+
+        </div>
         {  videos.map((video=>{
             return <VideoPlayer url={video.url}/>
         }))}
