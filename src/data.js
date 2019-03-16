@@ -4,7 +4,7 @@ import RIGOR_LOGO from './assets/img/rigor-logo.png'
 import XOBIN_LOGO from './assets/img/xobin-logo.png'
 import ARICENT_LOGO from './assets/img/aricentLogo.jpg'
 
-
+import FLICKR_IMG from './assets/img/flickr_api.jpg'
 
 import JAMNJAM_IMG from './assets/img/jamnjam.png'
 import PLAGIARISM_IMG from './assets/img/PROJECT_PLAGIRASIM.png'
@@ -74,6 +74,17 @@ export const PROJECTS_DATA=[
             "Conducted a survey with 200 musicians in India and acquired insights about the needs of web users (musicians)"
         ]
     },
+
+    {
+        title : "Flickr API Scanner",
+        description : "A web scrapper for flickr apis",
+        img : FLICKR_IMG,
+        details :[
+            "Built a scrapper with Beautiful soup in python",
+            "Generated a JSON file of the complete apis of flickr",
+            "Revamped it with Docusaurs ",
+        ]
+    }
 
 
 ]
