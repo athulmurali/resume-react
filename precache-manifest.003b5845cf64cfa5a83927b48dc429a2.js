@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2d3b37e8906ba93006a5a2972d6ec5eb",
-    "url": "/resume-react/static/media/aricentLogo.2d3b37e8.jpg"
+    "revision": "b48efd4f4e25478ace41",
+    "url": "/resume-react/static/css/main.b9943400.chunk.css"
   },
   {
-    "revision": "94279b565ec787c7ffaa",
-    "url": "/resume-react/static/css/main.8e40b3ef.chunk.css"
+    "revision": "b48efd4f4e25478ace41",
+    "url": "/resume-react/static/js/main.b48efd4f.chunk.js"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/resume-react/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "94e7108ab0925ddd80a4",
+    "url": "/resume-react/static/css/1.1f0e62de.chunk.css"
   },
   {
-    "revision": "5799381afa679954758d",
-    "url": "/resume-react/static/js/1.5799381a.chunk.js"
+    "revision": "94e7108ab0925ddd80a4",
+    "url": "/resume-react/static/js/1.94e7108a.chunk.js"
   },
   {
     "revision": "ec256162ff346ce54c3d",
@@ -32,8 +32,16 @@ self.__precacheManifest = [
     "url": "/resume-react/static/media/rigor-logo.093e6ce9.png"
   },
   {
-    "revision": "94279b565ec787c7ffaa",
-    "url": "/resume-react/static/js/main.94279b56.chunk.js"
+    "revision": "2d3b37e8906ba93006a5a2972d6ec5eb",
+    "url": "/resume-react/static/media/aricentLogo.2d3b37e8.jpg"
+  },
+  {
+    "revision": "df83feb0a41151ff0ea93cf2d256c2fe",
+    "url": "/resume-react/static/media/bose_logo.df83feb0.png"
+  },
+  {
+    "revision": "920e19e9f53fffc13fe243bec59f0436",
+    "url": "/resume-react/static/media/flickr_api.920e19e9.jpg"
   },
   {
     "revision": "278e490148d71cf92cefc2a8bb4cb20d",
@@ -60,11 +68,11 @@ self.__precacheManifest = [
     "url": "/resume-react/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "5799381afa679954758d",
-    "url": "/resume-react/static/css/1.2ef036a6.chunk.css"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/resume-react/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "2bd4c3df4212860ccf948b3f0622b512",
+    "revision": "7a2586c307a46422752c87a6b73ed7b9",
     "url": "/resume-react/index.html"
   }
 ];
