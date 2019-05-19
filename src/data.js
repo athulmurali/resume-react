@@ -3,6 +3,7 @@ import NEU_LOGO from './assets/img/NEU_CCIS.jpg'
 import RIGOR_LOGO from './assets/img/rigor-logo.png'
 import XOBIN_LOGO from './assets/img/xobin-logo.png'
 import ARICENT_LOGO from './assets/img/aricentLogo.jpg'
+import BOSE_LOGO from './assets/img/bose_logo.png'
 
 import FLICKR_IMG from './assets/img/flickr_api.jpg'
 
@@ -10,9 +11,17 @@ import JAMNJAM_IMG from './assets/img/jamnjam.png'
 import PLAGIARISM_IMG from './assets/img/PROJECT_PLAGIRASIM.png'
 export const experiencesData = [
     {
+        position: 'Cloud Engineer Intern',
+        company: 'Bose',
+        year: 'May `19 - Present',
+        img: BOSE_LOGO,
+        details: "Cloud engineer for API integrations for Bose cloud "
+
+    },
+    {
         position: 'Front End Engineer',
         company: 'Retail Business Services',
-        year: 'Jan `19- Present',
+        year: 'Jan `19- May`19',
         img: RBS_LOGO,
         details: "Front End Engineer for R & D "
 
