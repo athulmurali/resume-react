@@ -1,5 +1,5 @@
 import React from 'react'
-import {experiencesData} from '../../data'
+import {experiencesData} from '../../const/experiencesData'
 
 const ExperienceComponent = (props) => {
     return <div className="row" title="">
