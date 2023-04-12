@@ -4,6 +4,7 @@ import RIGOR_LOGO from './assets/img/rigor-logo.png'
 import XOBIN_LOGO from './assets/img/xobin-logo.png'
 import ARICENT_LOGO from './assets/img/aricentLogo.jpg'
 import BOSE_LOGO from './assets/img/bose_logo.png'
+import OCI_LOGO from './assets/img/oracle-logo.png'
 
 import FLICKR_IMG from './assets/img/flickr_api.jpg'
 
@@ -11,9 +12,16 @@ import JAMNJAM_IMG from './assets/img/jamnjam.png'
 import PLAGIARISM_IMG from './assets/img/PROJECT_PLAGIRASIM.png'
 export const experiencesData = [
     {
+        position: 'Senior Software Engineer | SDE 3',
+        company: 'Oracle',
+        year: 'Jan `20 - Present',
+        img: OCI_LOGO,
+        details: "Senior Software engineer at Oracle Cloud Infrastructure"
+    },
+    {
         position: 'Cloud Engineer Intern',
         company: 'Bose',
-        year: 'May `19 - Present',
+        year: 'May `19 - Aug `19',
         img: BOSE_LOGO,
         details: "Cloud engineer for API integrations for Bose cloud "
 
@@ -55,7 +63,6 @@ export const experiencesData = [
         img: XOBIN_LOGO,
         details: "Mentor for coding enthusiasts  signed up with Xobin BootCamp"
     }
-
 ]
 
 export const PROJECTS_DATA=[
@@ -107,4 +114,4 @@ export const LANGUAGES = ["","Flask", "SQL MongoDB","React & Redux", "Angular"]
 export const SOCIAL_LINKED_IN ="https://www.linkedin.com/in/athulmuralidharan/"
 export const SOCIAL_GITHUB ="https://github.com/athulmurali"
 export const SOCIAL_TWITTER ="https://twitter.com/@athul_karthik"
-export const SOCIAL_EMAIL = "muralidharan.a@husky.neu.edu"
+export const SOCIAL_EMAIL = "athulmurali@gmail.com"

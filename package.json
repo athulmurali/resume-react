@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://athulmurali.github.io/resume-react",
+    "engines": {
+    "node": "v14.21.1"
+  },
   "dependencies": {
     "font-awesome": "^4.7.0",
+    "fsevents": "^2.3.2",
     "prop-types": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
