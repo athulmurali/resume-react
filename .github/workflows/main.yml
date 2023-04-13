@@ -19,7 +19,7 @@ jobs:
         node-version: 14.21.1  # Specify the desired Node.js version
     
     - name: Install dependencies
-      run: yarn
+      run: yarn install --ignore-platform
 
     - name: Deploy with gh-pages
       run: yarn deploy
