@@ -21,5 +21,8 @@ jobs:
     - name: Install dependencies
       run: yarn install --ignore-platform
 
+    - name: Run pre deploy
+      run: yarn predeploy
+
     - name: Deploy with gh-pages
       run: npx gh-pages -d build -t ${{ secrets.GH_TOKEN }}
