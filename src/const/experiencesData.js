@@ -52,11 +52,11 @@ export const experiencesData = [
         img: ARICENT_LOGO,
         details: "Software engineer for Juniper & Coriant Routers "
     },
-    {
-        position: 'Mentor',
-        company: 'Xobin',
-        year: 'Nov `15- Nov `16',
-        img: XOBIN_LOGO,
-        details: "Mentor for coding enthusiasts  signed up with Xobin BootCamp"
-    }
+    // {
+    //     position: 'Mentor',
+    //     company: 'Xobin',
+    //     year: 'Nov `15- Nov `16',
+    //     img: XOBIN_LOGO,
+    //     details: "Mentor for coding enthusiasts  signed up with Xobin BootCamp"
+    // }
 ]
