@@ -1,7 +1,6 @@
 import RBS_LOGO from '../assets/img/rbs.jpeg'
 import NEU_LOGO from '../assets/img/NEU_CCIS.jpg'
 import RIGOR_LOGO from '../assets/img/rigor-logo.png'
-import XOBIN_LOGO from '../assets/img/xobin-logo.png'
 import ARICENT_LOGO from '../assets/img/aricentLogo.jpg'
 import BOSE_LOGO from '../assets/img/bose_logo.png'
 import OCI_LOGO from '../assets/img/oracle-logo.png'
