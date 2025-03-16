@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume-react/static/css/main.76d96dd1.css",
-    "main.js": "/resume-react/static/js/main.0bc670ca.js",
+    "main.js": "/resume-react/static/js/main.56e04f30.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/resume-react/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/PROJECT_PLAGIRASIM.png": "/resume-react/static/media/PROJECT_PLAGIRASIM.c86d123d7521d15ae385.png",
     "static/media/fontawesome-webfont.eot": "/resume-react/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -17,10 +17,10 @@
     "static/media/aricentLogo.jpg": "/resume-react/static/media/aricentLogo.82b5f79c364276a9edae.jpg",
     "index.html": "/resume-react/index.html",
     "main.76d96dd1.css.map": "/resume-react/static/css/main.76d96dd1.css.map",
-    "main.0bc670ca.js.map": "/resume-react/static/js/main.0bc670ca.js.map"
+    "main.56e04f30.js.map": "/resume-react/static/js/main.56e04f30.js.map"
   },
   "entrypoints": [
     "static/css/main.76d96dd1.css",
-    "static/js/main.0bc670ca.js"
+    "static/js/main.56e04f30.js"
   ]
 }
