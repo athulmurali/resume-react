@@ -50,11 +50,9 @@ export const TECH_STACK = [
   'Angular',
 ];
 export const LANGUAGES = [
-  '',
-  'Flask',
-  'SQL MongoDB',
-  'React & Redux',
-  'Angular',
+  'Javscript, HTML & CSS',
+  'Python',
+  'JAVA',
 ];
 
 // social links : To be given as string
