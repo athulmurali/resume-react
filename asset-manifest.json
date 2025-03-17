@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa1da783.css",
-    "main.js": "/static/js/main.aa8037ec.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/PROJECT_PLAGIRASIM.png": "/static/media/PROJECT_PLAGIRASIM.c86d123d7521d15ae385.png",
-    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/bose_logo.png": "/static/media/bose_logo.2e10ded797ca90f91c41.png",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/athul_dp.jpg": "/static/media/athul_dp.39b581d482445d9c0351.jpg",
-    "static/media/rigor-logo.png": "/static/media/rigor-logo.59c27b5a6f78d9bebb89.png",
-    "static/media/jamnjam.png": "/static/media/jamnjam.d8c19e4a2959599a479b.png",
-    "static/media/flickr_api.jpg": "/static/media/flickr_api.acd888ad618186ba37b5.jpg",
-    "static/media/NEU_CCIS.jpg": "/static/media/NEU_CCIS.0cfb34680cd277e69c4e.jpg",
-    "static/media/aricentLogo.jpg": "/static/media/aricentLogo.82b5f79c364276a9edae.jpg",
-    "index.html": "/index.html",
-    "main.aa1da783.css.map": "/static/css/main.aa1da783.css.map",
-    "main.aa8037ec.js.map": "/static/js/main.aa8037ec.js.map"
+    "main.css": "/resume-react/static/css/main.76d96dd1.css",
+    "main.js": "/resume-react/static/js/main.56e04f30.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/resume-react/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/PROJECT_PLAGIRASIM.png": "/resume-react/static/media/PROJECT_PLAGIRASIM.c86d123d7521d15ae385.png",
+    "static/media/fontawesome-webfont.eot": "/resume-react/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/resume-react/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/bose_logo.png": "/resume-react/static/media/bose_logo.2e10ded797ca90f91c41.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/resume-react/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/resume-react/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/athul_dp.jpg": "/resume-react/static/media/athul_dp.39b581d482445d9c0351.jpg",
+    "static/media/rigor-logo.png": "/resume-react/static/media/rigor-logo.59c27b5a6f78d9bebb89.png",
+    "static/media/jamnjam.png": "/resume-react/static/media/jamnjam.d8c19e4a2959599a479b.png",
+    "static/media/flickr_api.jpg": "/resume-react/static/media/flickr_api.acd888ad618186ba37b5.jpg",
+    "static/media/NEU_CCIS.jpg": "/resume-react/static/media/NEU_CCIS.0cfb34680cd277e69c4e.jpg",
+    "static/media/aricentLogo.jpg": "/resume-react/static/media/aricentLogo.82b5f79c364276a9edae.jpg",
+    "index.html": "/resume-react/index.html",
+    "main.76d96dd1.css.map": "/resume-react/static/css/main.76d96dd1.css.map",
+    "main.56e04f30.js.map": "/resume-react/static/js/main.56e04f30.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa1da783.css",
-    "static/js/main.aa8037ec.js"
+    "static/css/main.76d96dd1.css",
+    "static/js/main.56e04f30.js"
   ]
 }
