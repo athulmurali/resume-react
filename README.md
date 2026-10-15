@@ -1,3 +1,5 @@
+> **Deprecated:** this repo is no longer deployed. The live site, www.athulmurali.com, is built from [athulmurali/athulmurali.github.io](https://github.com/athulmurali/athulmurali.github.io) (`develop` branch).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
